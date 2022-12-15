@@ -1,0 +1,99 @@
+.Auth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    position: relative;
+    @media screen and (max-width: 845px) {
+      flex-direction: column;
+      gap: 0rem;
+      height: auto;
+    }
+    .a-left {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      img {
+        width: 4rem;
+        height: 4rem;
+      }
+    }
+  }
+  
+  .a-left {
+    height: 100vh;
+    @media screen and (max-width: 845px) {
+      height: 50vh;
+    }
+  }
+  
+  .Webname {
+    h1 {
+      font-size: 3rem;
+      // background-color: red;
+      background-color: rgb(14, 81, 203);
+      background-image: var(--buttonBg);
+      background-size: 100%;
+      background-repeat: repeat;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -moz-background-clip: text;
+    }
+    h6 {
+      font-size: 0.85rem;
+    }
+  }
+  
+  .infoForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.6rem;
+    @media screen and (max-width: 600px) {
+      gap: 0.3rem;
+    }
+    .infoInput {
+      border: none;
+      outline: none;
+      background-color: var(--inputColor);
+      border-radius: 8px;
+      padding: 20px;
+      flex: 1;
+    }
+  }
+  
+  .infoForm > div {
+    display: flex;
+    gap: 1rem;
+    height: 2rem;
+    width: 90%;
+    @media screen and (max-width: 600px) {
+      flex-direction: column;
+      height: auto;
+      gap: 0.3rem;
+    }
+  }
+  
+  .infoButton {
+    width: 6rem;
+    height: 2rem;
+    align-self: flex-end;
+  }
+  
+  .authForm {
+    background-color: var(--cardColor);
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+  
+  .authForm > div {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+//   .error {
+//     color: red;
+//   }

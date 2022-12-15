@@ -1,0 +1,9 @@
+.Posts{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+}
+::-webkit-scrollbar {
+    display: none;
+  }
